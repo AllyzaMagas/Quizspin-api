@@ -64,7 +64,15 @@ A player completed the game if they answered every question in the question set.
 
 ## Tables
 
-[List your tables, one line each, in the order of your migrations.]
+| Table | Purpose |
+|---|---|
+| users | Accounts for hosts and players (school_id, full_name, email, role) |
+| question_sets | Quiz sets owned by a host |
+| questions | Questions in a set, with four choices and the correct one |
+| game_sessions | Games with a join code and a status (waiting, active, completed) |
+| players | A user's seat in a game, with a nickname and score (one seat per account per game) |
+| answers | The choice a player submitted for a question and whether it was correct |
+
 
 ## Database scripts
 

@@ -20,7 +20,7 @@ This is my own build of my group's game concept. Every commit in this repository
 ## Setup
 
 ```
-git clone [repository-url]
+git clone [https://github.com/AllyzaMagas/Quizspin-api.git ]
 cd [folder-name]
 npm install
 ```

@@ -43,7 +43,7 @@ npm run dev
 | PORT | 3001 | Port the API listens on (the library assigns the final port at deployment) |
 | DB_HOST | 127.0.0.1 | PostgreSQL host |
 | DB_PORT | 5432 | PostgreSQL port |
-| DB_NAME | QuizSpin | Database name: your game slug, with underscores |
+| DB_NAME | QuizSpin | Database name: QuizSpin, with underscores |
 | DB_USER | postgres | Database user |
 | DB_PASSWORD | (your own) | Database password. Never commit this. |
 | HUB_API_KEY | dev-hub-key | Key the Library Game Hub sends to read results. The library gives the real one at deployment. |
